@@ -1,0 +1,87 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("https://raw.githubusercontent.com/mangowolf/hello-world/master/black_background_leather-wallpaper-1280x720.jpg");
+}
+
+div {
+	margin: auto;
+	width: 960px;
+	max-width: 100%;
+	position: relative;
+}
+
+h1 {
+	font-family: sans-serif;
+	font-size: 4vw;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 3vw;
+}
+
+img, embed, object, video {
+max-width: 100%;
+}
+
+.titleHeader {
+	height: 10%;
+	color: #BCBBBB;
+}
+.title {
+	text-align: right;
+	color: #BCBBBB;
+}
+
+.subtitle {
+	text-align: right;
+	color: #BCBBBB;
+}
+
+.featuredBox {
+	color: #BCBBBB;
+}
+
+.featuredWork {
+	width: 32%;
+	height: 15%;
+	display: inline-block;
+	border: solid black;
+	color: #747704;
+	background-color: black;
+}
+
+/*@media screen and (min-width: 800px) {
+	.featuredWork {
+		width: 300px;
+		height: 250px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}*/
+
+.fwHeader {
+	text-align: center;
+	color: #BCBBBB;
+}
+
+#mainbox {
+	width: 100%;
+}
+
+img.mainPic{
+	width:100%;
+
+}
+
+img.fwPic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
