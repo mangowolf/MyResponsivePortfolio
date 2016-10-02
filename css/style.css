@@ -14,7 +14,6 @@ div {
     max-width: 960px;
     text-align: center;
     color: #FFFFF0;
-    border: 1px solid black;
 }
 
 img, embed, object, video {
@@ -31,4 +30,8 @@ img, embed, object, video {
 
 .fwHeader {
     text-align: left;
+}
+
+.featuredWork {
+    cursor: pointer;
 }
